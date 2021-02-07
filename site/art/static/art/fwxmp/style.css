@@ -1,0 +1,83 @@
+@-webkit-keyframes rotating {0% {-webkit-transform:rotate(0)}
+to {-webkit-transform:rotate(360deg)}
+}
+@keyframes rotating {0% {transform:rotate(0)}
+to {transform:rotate(360deg)}
+}
+@-moz-keyframes rotating {0% {-moz-transform:rotate(0)}
+to {-moz-transform:rotate(360deg)}
+}
+button {font:inherit;overflow:visible;text-transform:none;-webkit-appearance:button;font-size:14px;font-weight:400;line-height:1.42;position:relative;display:inline-block;margin:0;padding:6px 12px;cursor:pointer;-webkit-transition:all;transition:all;-webkit-transition-timing-function:linear;transition-timing-function:linear;-webkit-transition-duration:.2s;transition-duration:.2s;text-align:center;vertical-align:top;white-space:nowrap;color:#333;border:1px solid #ccc;border-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;background-color:#fff;background-clip:padding-box}
+button:enabled:active {color:#fff;background-color:#929292}
+button:disabled {opacity:.6}
+button:active {background:0 0!important;color:#576b95!important}
+p img {max-width:100%;height:auto}
+.rich_media_tool .meta_extra {color:#607fa6!important}
+.rich_media_inner {word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}
+.rich_media_area_primary {background-color:#fafafa}
+body {-webkit-touch-callout:none;font-family:-apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;color:#333;letter-spacing:.034em}
+h2 {font-weight:400;font-size:16px}
+*{margin:0;padding:0;}
+a {color:#576b95;text-decoration:none}
+.rich_media_title {font-size:22px;padding:20px 39px 12px 16px;line-height:1.4;margin-bottom:14px}
+.rich_media_meta_list {padding:0 16px 12px;line-height:20px;font-size:0}
+.rich_media_meta_list em {font-style:normal}
+.rich_media_meta {display:inline-block;vertical-align:middle;margin:0 10px 10px 0;font-size:15px}
+.rich_media_meta_text {color:rgba(0,0,0,.3)}
+.rich_media_meta_nickname {position:relative}
+.rich_media_content {overflow:hidden;color:#3e3e3e;font-size:17px;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;text-align:justify}
+.rich_media_content * {max-width:100%!important;box-sizing:border-box!important;-webkit-box-sizing:border-box!important;word-wrap:break-word!important}
+.rich_media_content p {clear:both;min-height:1em}
+img {height:auto!important;vertical-align:middle}
+@media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3) and (orientation:landscape) {.rich_media_area_primary {padding:20px 59px 15px}
+}
+@media screen and (min-width:1024px) {.rich_media {width:740px;margin-left:auto;margin-right:auto}
+.rich_media_inner {padding:20px}
+}
+@media screen and (min-width:1025px) {
+.rich_media {position:relative}
+}
+.tips_global {color:#888}
+.like_btn,.like_btn:before {display:inline-block;vertical-align:middle}
+.like_btn {-webkit-appearance:none;-webkit-tap-highlight-color:transparent;outline:0;background-color:transparent;border:0;padding:0;line-height:2.1333333333333333;color:#576b95;font-size:15px}
+.like_btn:before {font-size:16px;content:"";width:1em;height:1.125em;margin-top:-.25em;margin-right:.05em;background-color:#576b95;mask-image:url(Like_ico.svg);-webkit-mask-image:url(Like_ico.svg);mask-size:1em;-webkit-mask-size:1em}
+.like_num {font-size:15px;margin-left:.2em}
+.like_btn_liked {color:#ffc300}
+.like_btn_liked:before {background-color:#ffc300}
+.like_comment_wrp {font-size:15px;margin-top:9px;margin-bottom:8px;position:relative;z-index:1}
+.like_comment_wrp:after,.like_comment_wrp:before {content:"";display:inline-block;width:0;height:0;border-color:transparent;border-width:0 7px 7px;border-bottom-color:rgba(0,0,0,.03);border-style:dashed dashed solid;position:absolute;right:28px}
+.like_comment_wrp:before {top:-7px}
+.like_comment_wrp:after {border-bottom-color:#f7f7f7;top:-6px}
+.like_comment_inner {background-color:rgba(0,0,0,.03);-webkit-border-radius:2px;border-radius:2px;overflow:hidden;padding:18px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+.like_comment_share_link {display:inline-block;margin-left:12px}
+.like_comment_share_link:after {content:" ";display:inline-block;vertical-align:middle;height:14px;width:8px;margin-left:6px;margin-top:-2px;background:transparent url("data:image/svg+xml,%3Csvg width='8' height='14' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M7.588 12.43l-1.061 1.06L.748 7.713a.996.996 0 010-1.413L6.527.52l1.06 1.06-5.424 5.425 5.425 5.425z' id='a'/%3E%3C/defs%3E%3Cuse fill='%23576B95' transform='rotate%28-180 4.02 7.005%29' xlink:href='%23a' fill-rule='evenodd'/%3E%3C/svg%3E") 50% 50% no-repeat}
+.like_comment_tips {text-align:center}
+.like_comment_tips>i {font-size:18px;margin-right:8px;margin-top:-.2em}
+.like_comment_tips>i:before {margin:0}
+.like_comment_bd {-webkit-box-flex:1;-webkit-flex:1;flex:1;line-height:1.6}
+.rich_media_tool {overflow:hidden;line-height:32px;font-size:15px;padding:12px 16px}
+.rich_media_tool .meta_primary {float:left}
+.rich_media_tool .meta_extra {float:right;margin-left:10px}
+.rich_media_tool .meta_primary {margin-right:20px}
+.tips_global_primary {color:rgba(0,0,0,.3)}
+[class^=weui-icon-] {display:inline-block;vertical-align:middle;font:14px/1"weui";font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased}
+[class^=weui-icon-]:before {display:inline-block;margin-left:.2em;margin-right:.2em}
+.weui-icon-success:before {content:"\EA06"}
+.weui-icon-success {font-size:23px;color:#09bb07}
+@media screen and (max-width:1023px) {.profile_container {display:none!important}
+}
+.rich_media_content img {width:100%;min-width:100%;max-width:100%}
+@font-face {font-weight:400;font-style:normal;font-family:"weui";src:url(weui.ttf) format('truetype')}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+*:not(input,textarea) { 
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+}
+#music_id {width:33px;height:33px;background-image:url(normalmusic.svg);background-size:contain;position:fixed;z-index:99999;top:120px;right:17px;display:none}
+.animate {-webkit-animation:rotating 2.2s linear infinite;-moz-animation:rotating 2.2s linear infinite;-o-animation:rotating 2.2s linear infinite;animation:rotating 2.2s linear infinite}

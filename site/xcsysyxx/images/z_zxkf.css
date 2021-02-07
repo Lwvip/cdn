@@ -1,0 +1,8 @@
+#kf_container { width:110px;line-height:9px;z-index:999; }
+.z_zxkf_absolute { position:absolute; }
+.z_zxkf_fixed { position:fixed; }
+#kf_main { min-height:40px;padding-bottom:10px;font-size:12px;padding-left:10px; }
+#kf_main p { height:30px;background-position:left center;background-repeat:no-repeat;margin:0;width:65px;padding-left:25px;
+	line-height:30px; }
+#kf_main p.diy_text { width:90px;line-height:16px;height:auto;padding:5px 0; }
+#kf_main a { display:block;height:25px;line-height:30px;text-decoration:none;color:#222;width:65px; }

@@ -1,0 +1,7 @@
+#kf_container { width:110px;position:absolute;line-height:9px; }
+.position_left_top { top:50px;left:20px; }
+.position_right_top { top:50px;right:20px; }
+.position_left_bottom { bottom:50px;left:20px; }
+.position_right_bottom { bottom:50px;right:20px; }
+
+#kf_middle { background:url('qq/lan1/middle.gif') repeat-y;min-height:80px; }

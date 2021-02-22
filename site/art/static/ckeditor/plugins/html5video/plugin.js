@@ -151,7 +151,10 @@ CKEDITOR.plugins.add( 'html5video', {
                     } else {
                         this.element.getChild( 0 ).removeAttribute( 'loop' );
                     }
-
+                    this.element.getChild( 0 ).setAttribute('x-webkit-airplay', 'true');
+                    this.element.getChild( 0 ).setAttribute('x-webkit-airplay', 'allow');
+                    this.element.getChild( 0 ).setAttribute('x5-video-player-type', 'h5');
+                    this.element.getChild( 0 ).setAttribute('preload', 'auto');
                     if ( this.data.allowdownload === 'yes' ) {
                         this.element.getChild( 0 ).removeAttribute( 'controlslist' );
                     } else {

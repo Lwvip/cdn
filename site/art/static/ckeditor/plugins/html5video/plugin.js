@@ -119,7 +119,6 @@ CKEDITOR.plugins.add( 'html5video', {
 
                     if (this.data.poster) this.element.getChild( 0 ).setAttribute('poster', this.data.poster);								
                 }
-
                 this.element.removeStyle( 'float' );
                 this.element.removeStyle( 'margin-left' );
                 this.element.removeStyle( 'margin-right' );
@@ -137,7 +136,6 @@ CKEDITOR.plugins.add( 'html5video', {
                     this.element.setStyle( 'float', this.data.align );
                     this.element.setStyle( 'margin-left', '10px' );
                 }
-
                 if ( this.element.getChild( 0 ) ) {
                     if ( this.data.autoplay === 'yes' ) {
                         this.element.getChild( 0 ).setAttribute( 'autoplay', 'autoplay' );
@@ -147,6 +145,9 @@ CKEDITOR.plugins.add( 'html5video', {
 
                     if ( this.data.loop === 'yes' ) {
                         this.element.getChild( 0 ).setAttribute( 'loop', 'loop' );
+                         this.element.getChild( 0 ).setAttribute('webkit-playsinline', 'true');
+                         this.element.getChild( 0 ).setAttribute('playsinline', 'true');
+                         this.element.getChild( 0 ).setAttribute('x5-playsinline', 'true');
                     } else {
                         this.element.getChild( 0 ).removeAttribute( 'loop' );
                     }

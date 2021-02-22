@@ -207,7 +207,7 @@ CKEDITOR.dialog.add( 'html5video', function( editor ) {
                             [editor.lang.html5video.yes, 'yes'],
                             [editor.lang.html5video.no, 'no']
                         ],
-                        'default': 'no',
+                        'default': 'yes',
                         setup: function( widget ) {
                             if ( widget.data.loop ) {
                                 this.setValue( widget.data.loop );

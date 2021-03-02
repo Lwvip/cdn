@@ -249,7 +249,7 @@
                     }
                 } else {
                     $('#fileBox_'+file.id).remove();
-                    xn_alert(response.msg);
+                    alert(response.msg);
                 }
             });
 
